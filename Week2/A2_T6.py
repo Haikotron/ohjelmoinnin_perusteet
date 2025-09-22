@@ -17,5 +17,3 @@ print(f"- Green {hex[3:5]}")
 print(f"- Blue {hex[5:7]}")
 #ensimmäiset 5 merkkiä pois, 6 ja 7 merkki printtaantuu
 print("Program ending.")
-
-
