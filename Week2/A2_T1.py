@@ -24,4 +24,3 @@ print(f"{name} you gave numbers {number1} and {number2}")
 number_sum = number1*number2
 print(f"Multiplying first and second number will result in product {round (number_sum, 2)}")
 print("Program ending.")
-
