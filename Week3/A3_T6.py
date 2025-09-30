@@ -62,7 +62,7 @@ elif Choice == 2:
         print(f"{round(Gram, 1)} g is {round(Pound, 1)} lb")
     elif Choice2 == 2:
         Pound = float(input("Insert pounds: "))
-        Gram = float(Pound / 0.002205)
+        Gram = float(Pound * 453.592)
         print(f"{round(Pound, 1)} lb is {round(Gram, 1)} g")
     elif Choice2 == 0:
         print("Exiting...")
@@ -70,10 +70,10 @@ elif Choice == 2:
         print("Unknown option.")
 
 elif Choice == 0:
-    print("Exiting...")
+    print("\nExiting...")
 
 else:
-    print("Unknown option.")
+    print("\nUnknown option.")
 
 #Program ending.
 print("\nProgram ending.")
